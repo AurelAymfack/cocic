@@ -1,0 +1,67 @@
+/* read-article */
+
+.read-article {
+    background-color: rgba(23, 24, 24, 0.13);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+form {
+    width: 600px;
+    height: 800px;
+
+}
+
+form h3 {
+    height: 100px;
+    width: auto;
+}
+
+.all-input {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.all-input input,
+.all-input select {
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: solid 1px rgb(54, 53, 53);
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.all-input textarea {
+    padding-top: 10px;
+    height: 380px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid 1px rgb(54, 53, 53);
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+
+.contain-btn {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    background-color: greenyellow;
+}

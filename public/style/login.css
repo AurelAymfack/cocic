@@ -1,0 +1,44 @@
+.connected {
+    display: flex;
+}
+
+.close {
+    display: none;
+}
+
+.retour {
+    display: flex;
+}
+.mini-text a{
+    color:  blue;
+    margin: 0 10px;
+}
+.choix {
+    height: 80px;
+    display: flex;
+    flex-flow:column  wrap;
+    width: 100%;
+    margin: 10px 0;
+    overflow: clip;
+}
+
+.choix input{
+    height: 35px;
+    width: 100%;
+}
+.choix div{
+    width: 100%;
+    margin-right: 20px;
+transition: all 0.5s ease;
+}
+.choix div:last-child {
+    width: 100%;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+label{
+    display: block;
+    color: blue;
+    margin-bottom: 10px;
+}
